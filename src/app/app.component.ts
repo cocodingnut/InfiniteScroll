@@ -2,9 +2,12 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+    <h1>Infinite Scroll</h1>
+    <app-testimonials></app-testimonials>
+  `,
+  styles: [``]
 })
 export class AppComponent {
-  title = 'inf-scroll';
+
 }

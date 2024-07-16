@@ -1,0 +1,6 @@
+<h1>Testimonials</h1>
+<div id="testimonial-container" (scroll)="onScroll()">
+    <div class="testimonial" *ngFor="let testimonial of testimonials">
+        <p>{{ testimonial.message }}</p>
+    </div>
+</div>
